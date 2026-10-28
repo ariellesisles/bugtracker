@@ -1,0 +1,65 @@
+# ========================
+# Maven / Build Output
+# ========================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.nextBackup
+pom.xml.backup
+release.properties
+dependency-reduced-pom.xml
+build/
+.mvn/wrapper/maven-wrapper.jar
+
+# ========================
+# IDEs & Editors
+# ========================
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+
+### Eclipse / Spring Tool Suite (STS) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.*
+!.env.example
+
+# ========================
+# Logs & Databases
+# ========================
+*.log
+*.sqlite
+*.db
+
+# ========================
+# Operating System Files
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
